@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Estilos de la tabla 1-->
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid red;
+            border-collapse: collapse;
+            padding: 15px;
+        }
+    </style>
+    <!--Estilos de la tabla 2-->
+    <style>
+        #t2 {
+            width: 100%;
+            background-color: darkkhaki;
+        }
+
+        #t2 tr:nth-child(even) {
+            background-color: darkslategray;
+        }
+
+        #t2 tr:nth-child(odd) {
+            background-color: dodgerblue;
+        }
+        #t2 th{
+            color: forestgreen;
+            background-color: #000000;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!--Tabla de nombres-->
+    <h1>Tablas en HTML</h1>
+    <table style="width: 100%;">
+        <tr>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Edad</th>
+        </tr>
+        <tr>
+            <td>Deni</td>
+            <td>Romero</td>
+            <td>26</td>
+        </tr>
+        <tr>
+            <td>Juan</td>
+            <td>Sanchez</td>
+            <td>89</td>
+        </tr>
+    </table>
+    <!--Tabla de-->
+    <h1>Tabla 2 en HTML</h1>
+    <table id="t2">
+        <tr>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Edad</th>
+        </tr>
+        <tr>
+            <td>Deni</td>
+            <td>Romero</td>
+            <td>26</td>
+        </tr>
+        <tr>
+            <td>Juan</td>
+            <td>Sanchez</td>
+            <td>89</td>
+        </tr>
+    </table>
+</body>
+
+</html>

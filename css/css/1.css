@@ -1,0 +1,35 @@
+/*Agregar fuentes externas para el H1*/
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap");
+
+/*Instanciar fuente descargada  */
+@font-face{
+    font-family: Embassy;
+    src: url(embassy-bt.ttf);
+}
+
+/*Ejercico 1 llamar a estilos css desde una archivo*/
+
+/*Estilos generales de las etiquetas (No recomendado)*/
+h1{
+    text-align: center; /*Sirve para centrar el texto*/
+    /*font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
+    font-family: "Londrina Sketch", sans-serif;
+    text-decoration: underline;
+    color: brown;
+    background: burlywood;
+}
+
+a{
+    color: chartreuse;
+    background: crimson;
+}
+
+p{
+    font-family: Embassy; /*Utiliar una fuente interna*/
+    color: darkblue;
+    background: darkgray;
+}
+
+body{
+    background-color: darkorange;
+}
